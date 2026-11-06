@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+    <defs>
+      <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#4b1d12"/><stop offset="1" stop-color="#160907"/></linearGradient>
+      <radialGradient id="cake"><stop stop-color="#f3bd72"/><stop offset=".55" stop-color="#b65b31"/><stop offset="1" stop-color="#4b1d12"/></radialGradient>
+      <linearGradient id="shine" x2="0" y2="1"><stop stop-color="#fff0d0" stop-opacity=".75"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+      <filter id="shadow"><feGaussianBlur stdDeviation="18"/></filter>
+    </defs>
+    <rect width="800" height="600" fill="url(#bg)"/>
+    <circle cx="650" cy="105" r="120" fill="#f3bd72" opacity=".08"/>
+    <ellipse cx="405" cy="470" rx="250" ry="38" fill="#000" opacity=".55" filter="url(#shadow)"/>
+    <ellipse cx="405" cy="450" rx="255" ry="42" fill="#c59a60" opacity=".8"/>
+    <ellipse cx="405" cy="438" rx="235" ry="32" fill="#f1d5a5"/>
+    <path d="M230 410 Q235 270 300 245 Q405 195 510 245 Q575 275 580 410 Q405 465 230 410Z" fill="url(#cake)" stroke="#f3bd72" stroke-width="5"/>
+    <ellipse cx="405" cy="260" rx="175" ry="76" fill="#b65b31" stroke="#f3bd72" stroke-width="5"/>
+    <ellipse cx="405" cy="248" rx="143" ry="51" fill="#4b1d12"/>
+    <path d="M290 247 Q330 210 405 220 Q475 225 520 250" fill="none" stroke="url(#shine)" stroke-width="16" stroke-linecap="round"/>
+    <path d="M365 222 Q400 180 445 220 Q470 250 430 273 Q390 290 365 260Z" fill="#f3bd72" opacity=".9"/>
+    <circle cx="530" cy="190" r="12" fill="#f3bd72"/><circle cx="555" cy="215" r="6" fill="#f8dfb4"/>
+    <path d="M110 110 Q210 40 300 95" fill="none" stroke="#c48a48" stroke-opacity=".35" stroke-width="3"/>
+    <text x="400" y="555" text-anchor="middle" fill="#f5dfbd" font-family="Georgia,serif" font-size="22" letter-spacing="5">VELOURA • HANDCRAFTED</text>
+    </svg>
